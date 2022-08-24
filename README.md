@@ -9,7 +9,7 @@ hungnq-devObs/hungnq-devObs is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
-# Ch
+# Change pass root user
 su
 sudo passwd root
 # check out the previllegi
