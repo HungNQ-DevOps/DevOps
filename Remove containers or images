@@ -1,0 +1,30 @@
+# docker command
+
+--------
+# Dockers
+
+### Remove all container and images
+docker system prune -a
+
+### Remove only all container
+docker system prune
+
+### Remove containers specified
+docker rm $docker_name or $docker_id
+
+### Remover all container was existed
+docker ps -a -f status=exited
+
+## Stop or remove all docker
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+---------
+# Images
+
+### Remove all images
+docker rmi $(docker images -a-q)
+
+
+### Remove images specified
+docker rmi $imageId
