@@ -1,2 +1,24 @@
 ### Command lists
 https://loveubuntu.wiki.zoho.com/C%E1%BB%ADa-s%E1%BB%95-d%C3%B2ng-l%E1%BB%87nh-Terminal.html
+
+### Key Command
+
+CTRL + U - Cut from begin to cursor
+
+CTRL + K - Cut from cursor to end
+
+CTRL + Y - Paster
+
+CTRL + E - Move to end
+
+CTRL + A - Move to begin
+
+ALT + F - Forward to next space
+
+ALT + B - Back to next space
+
+ALT + Backspace - Delete the previous word
+
+CTRL + W - Delete the next word
+
+Shift + Insert - Paste
