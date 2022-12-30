@@ -11,3 +11,8 @@ $ ssh-add -l
 Test it with 
 $ssh -v <host url> 
 e.g ssh -v git@assembla.com
+
+### Git config
+Git config --list
+
+Git config --list --global
