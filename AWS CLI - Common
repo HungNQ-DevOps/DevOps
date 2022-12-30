@@ -1,0 +1,15 @@
+### Update password
+aws iam update-login-profile --user-name <user_name> --password <password>
+
+### Get alias
+aws sts get-caller-identity
+
+### ssh config file
+Host git-codecommit.*.amazonaws.com
+User APKAXM6RAM3BNXZPDQV4
+IdentityFile ~/.ssh/id-rsa
+
+### Get repository uri
+aws ecr describe-repositories --repository-names <repository_name>
+
+### ...

@@ -1,0 +1,20 @@
+# Decrible ECS INFO
+
+### List clusters
+aws ecs list-clusters
+
+### List tasks of a cluster
+aws ecs list-tasks --cluster <cluster-name>
+
+### List docker names of a task
+aws ecs describe-tasks \
+--cluster ecs-demo-EcsCluster-mWkD7Y4zt5W5 \
+--task 11f37244484b486e9e0eda9b94cc9f74
+
+### E
+aws ecs execute-command \
+--cluster docker-react \
+--task 3e54dbf30dc440d38fc49fdded76cb8a \
+--container docker-react-container \
+--command “/bin/bash” \
+--interactive
