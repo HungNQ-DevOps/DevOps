@@ -1,0 +1,13 @@
+### add ssh-key
+
+$ ssh-agent bash
+
+$ ssh-add /path.to/private/key
+e.g ssh-add ~/.ssh/id_rsa
+
+Verify by 
+$ ssh-add -l
+
+Test it with 
+$ssh -v <host url> 
+e.g ssh -v git@assembla.com
