@@ -15,7 +15,7 @@ https://cloudjourney.awsstudygroup.com/7-aimlservice/
 ### Cloud practioner - No need account
 https://000300.awsstudygroup.com/vi/?fbclid=IwAR2roUeq7q8S0S8I_ykpgUDBhg_d1ZVkYiqM2i-690Xw1dphVfr1qdbv_Wc
 
-### add user into a group
+### 90 DaysToDevOps
 https://github.com/MichaelCade/90DaysOfDevOps?fbclid=IwAR3sSWlYZyRbz3CE2KTQrYbsqLExuLsOEQK-ifYj4AqspDHOx4PjH2ODCRk
 
 ### CICD React with code pipeline
