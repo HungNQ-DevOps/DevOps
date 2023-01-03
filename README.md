@@ -17,3 +17,6 @@ https://000300.awsstudygroup.com/vi/?fbclid=IwAR2roUeq7q8S0S8I_ykpgUDBhg_d1ZVkYi
 
 ### add user into a group
 https://github.com/MichaelCade/90DaysOfDevOps?fbclid=IwAR3sSWlYZyRbz3CE2KTQrYbsqLExuLsOEQK-ifYj4AqspDHOx4PjH2ODCRk
+
+### CICD React with code pipeline
+https://viblo.asia/p/aws-deploy-reactjs-app-tren-ecs-tich-hop-ci-cd-codecommit-codebuild-codepipeline-Qbq5QDemlD8
