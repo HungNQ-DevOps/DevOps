@@ -9,10 +9,11 @@ hungnq-devObs/hungnq-devObs is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
-# Change pass root user
-su
-sudo passwd root
-# check out the previllegi
-nano /etc/sudoers
-# add user into a group
-sudo usermod -a -G group username
+### Practice AWS
+https://cloudjourney.awsstudygroup.com/7-aimlservice/
+
+### Cloud practioner - No need account
+https://000300.awsstudygroup.com/vi/?fbclid=IwAR2roUeq7q8S0S8I_ykpgUDBhg_d1ZVkYiqM2i-690Xw1dphVfr1qdbv_Wc
+
+### add user into a group
+https://github.com/MichaelCade/90DaysOfDevOps?fbclid=IwAR3sSWlYZyRbz3CE2KTQrYbsqLExuLsOEQK-ifYj4AqspDHOx4PjH2ODCRk
