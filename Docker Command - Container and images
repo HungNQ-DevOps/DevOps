@@ -1,7 +1,18 @@
-# docker command
+# Docker running
+
+docker exec -it container_id sh
+docker logs container_id
+
+---------
+# Docker without sudo
+
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+sudo chmod 666 /var/run/docker.sock
+docker run hello-world
 
 --------
-# Dockers
+# Container
 
 ### Remove all container and images
 docker system prune -a
