@@ -1,20 +1,42 @@
 # Decrible ECS INFO
 
 ### List clusters
+
 aws ecs list-clusters
 
 ### List tasks of a cluster
+
 aws ecs list-tasks --cluster <cluster-name>
 
 ### List docker names of a task
+
 aws ecs describe-tasks \
 --cluster ecs-demo-EcsCluster-mWkD7Y4zt5W5 \
 --task 11f37244484b486e9e0eda9b94cc9f74
 
-### E
+### excute ecs ssh
+
 aws ecs execute-command \
 --cluster docker-react \
 --task 3e54dbf30dc440d38fc49fdded76cb8a \
 --container docker-react-container \
 --command “/bin/bash” \
 --interactive
+
+# Common command
+
+### Update password
+aws iam update-login-profile --user-name <user_name> --password <password>
+
+### Get alias
+aws sts get-caller-identity
+
+### ssh config file
+Host git-codecommit.*.amazonaws.com
+User APKAXM6RAM3BNXZPDQV4
+IdentityFile ~/.ssh/id-rsa
+
+### Get repository uri
+aws ecr describe-repositories --repository-names <repository_name>
+
+### ...
