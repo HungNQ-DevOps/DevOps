@@ -1,0 +1,35 @@
+# Daemon is processing?
+
+ps aux | grep mysql
+sudo kill 56311
+
+# Check mysql.status
+
+systemctl status mysql.service
+sudo service mysql start
+
+# Access denied for user 'root@localhost' (using password:NO)
+
+### 1. access to mysql
+
+mysql -u root
+
+### 2. In case: mysqld_safe Directory '/var/run/mysqld' for UNIX socket file don't exists
+
+mkdir -p /var/run/mysqld
+chown mysql:mysql /var/run/mysqld
+
+### 3. You have an error in your SQL syntax;
+check the manual that corresponds to your MySQL server version for
+the right syntax to use near 'IDENTIFIED BY 'root' WITH GRANT OPTION' at line 1.
+
+mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'PASSWORD';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+
+### 4. Exit the shell and restart mysql in normal mode.
+
+mysql> quit;
+kill -KILL [PID of mysqld_safe]
+kill -KILL [PID of mysqld]
+service mysql start
